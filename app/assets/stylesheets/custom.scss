@@ -1,0 +1,66 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #2F2F2F;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-size: 300%;
+}
+
+nav {
+  margin:0 auto;
+  padding: 0;
+  padding-right:40px;
+  background-color: #2F2F2F;
+  height: 65px;
+
+  a {
+    color: #00DE94;
+    text-decoration: none;
+  }
+
+  .links {
+    margin-top: 40px;
+
+    a { padding-right: 40px;}
+    a:hover { color: white;}
+  }
+
+}
+
+#logo {
+  position: absolute;
+  top: 20px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.donkey-card {
+  float:left;
+  padding:40px;
+  margin-top:20px;
+  height: 490px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/donkey-card.png)
+}
+
+.donkey-card p.title {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+footer {
+  background-color: #2F2F2F;
+
+  a {
+    color: #FFF;
+    text-decoration:none;
+  }
+}
