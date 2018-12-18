@@ -1,0 +1,78 @@
+/* line 1, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #2F2F2F;
+  margin: 0 auto;
+}
+
+/* line 8, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+.h1 {
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-size: 300%;
+}
+
+/* line 13, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+nav {
+  margin: 0 auto;
+  padding: 0;
+  padding-right: 40px;
+  background-color: #2F2F2F;
+  height: 65px;
+}
+/* line 20, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+nav a {
+  color: #00DE94;
+  text-decoration: none;
+}
+/* line 25, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+nav .links {
+  margin-top: 40px;
+}
+/* line 28, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+nav .links a {
+  padding-right: 40px;
+}
+/* line 29, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+nav .links a:hover {
+  color: white;
+}
+
+/* line 34, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+#logo {
+  position: absolute;
+  top: 20px;
+}
+
+/* line 39, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 44, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+.donkey-card {
+  float: left;
+  padding: 40px;
+  margin-top: 20px;
+  height: 490px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/donkey-card-8f9d30896373e631983a4f800527702e143cd5b686ac0bd5dca2aa8d88c0a28a.png);
+}
+
+/* line 53, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+.donkey-card p.title {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+/* line 59, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+footer {
+  background-color: #2F2F2F;
+}
+/* line 62, /Users/Nico/turing/2module/independent_challenges/hinny/app/assets/stylesheets/custom.scss */
+footer a {
+  color: #FFF;
+  text-decoration: none;
+}
